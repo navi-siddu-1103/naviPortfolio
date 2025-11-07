@@ -1,0 +1,31 @@
+<!-- Placeholder SVG for Python projects -->
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00b4d8;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="#1a1a1a"/>
+  <rect x="50" y="50" width="500" height="300" rx="10" fill="#2a2a2a" stroke="url(#grad4)" stroke-width="2"/>
+  <rect x="70" y="70" width="460" height="40" rx="5" fill="#0a0a0a"/>
+  <circle cx="85" cy="90" r="6" fill="#ff006e"/>
+  <circle cx="105" cy="90" r="6" fill="#ffbe0b"/>
+  <circle cx="125" cy="90" r="6" fill="#00d9ff"/>
+  <text x="300" y="95" font-family="monospace" font-size="14" fill="#00d9ff" text-anchor="middle">Python Applications Suite</text>
+  <rect x="70" y="130" width="200" height="150" rx="8" fill="#0a0a0a" stroke="#00d9ff" stroke-width="1"/>
+  <rect x="330" y="130" width="200" height="150" rx="8" fill="#0a0a0a" stroke="#00d9ff" stroke-width="1"/>
+  <text x="170" y="160" font-family="Arial, sans-serif" font-size="16" fill="#00d9ff" text-anchor="middle" font-weight="bold">GUI Pattern</text>
+  <text x="170" y="180" font-family="Arial, sans-serif" font-size="16" fill="#00d9ff" text-anchor="middle" font-weight="bold">Generator</text>
+  <rect x="100" y="195" width="140" height="70" rx="5" fill="#2a2a2a"/>
+  <line x1="120" y1="210" x2="150" y2="240" stroke="#00d9ff" stroke-width="2"/>
+  <line x1="150" y1="210" x2="120" y2="240" stroke="#00d9ff" stroke-width="2"/>
+  <line x1="180" y1="210" x2="210" y2="240" stroke="#00d9ff" stroke-width="2"/>
+  <line x1="210" y1="210" x2="180" y2="240" stroke="#00d9ff" stroke-width="2"/>
+  <text x="430" y="160" font-family="Arial, sans-serif" font-size="16" fill="#00d9ff" text-anchor="middle" font-weight="bold">Number</text>
+  <text x="430" y="180" font-family="Arial, sans-serif" font-size="16" fill="#00d9ff" text-anchor="middle" font-weight="bold">Guessing Game</text>
+  <rect x="360" y="195" width="140" height="70" rx="5" fill="#2a2a2a"/>
+  <text x="430" y="225" font-family="monospace" font-size="32" fill="#00d9ff" text-anchor="middle" font-weight="bold">42</text>
+  <text x="430" y="250" font-family="Arial, sans-serif" font-size="12" fill="#808080" text-anchor="middle">Guess the number!</text>
+  <text x="300" y="320" font-family="Arial, sans-serif" font-size="14" fill="#808080" text-anchor="middle">Python • Tkinter • GUI Design • Algorithms</text>
+</svg>

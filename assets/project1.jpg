@@ -1,0 +1,23 @@
+<!-- Placeholder SVG for E-Ration Shop project -->
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00b4d8;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="#1a1a1a"/>
+  <rect x="50" y="50" width="500" height="300" rx="10" fill="#2a2a2a" stroke="url(#grad2)" stroke-width="2"/>
+  <rect x="70" y="70" width="200" height="30" rx="5" fill="url(#grad2)" opacity="0.3"/>
+  <circle cx="520" cy="85" r="8" fill="#00d9ff"/>
+  <rect x="70" y="120" width="460" height="60" rx="8" fill="#0a0a0a"/>
+  <text x="300" y="155" font-family="Arial, sans-serif" font-size="18" fill="#00d9ff" text-anchor="middle" font-weight="bold">E-RATION SHOP</text>
+  <text x="300" y="175" font-family="Arial, sans-serif" font-size="12" fill="#808080" text-anchor="middle">Smart PDS System</text>
+  <rect x="70" y="200" width="140" height="100" rx="8" fill="#0a0a0a" stroke="#00d9ff" stroke-width="1"/>
+  <rect x="230" y="200" width="140" height="100" rx="8" fill="#0a0a0a" stroke="#00d9ff" stroke-width="1"/>
+  <rect x="390" y="200" width="140" height="100" rx="8" fill="#0a0a0a" stroke="#00d9ff" stroke-width="1"/>
+  <circle cx="140" cy="240" r="15" fill="url(#grad2)" opacity="0.5"/>
+  <circle cx="300" cy="240" r="15" fill="url(#grad2)" opacity="0.5"/>
+  <circle cx="460" cy="240" r="15" fill="url(#grad2)" opacity="0.5"/>
+  <text x="300" y="365" font-family="Arial, sans-serif" font-size="14" fill="#808080" text-anchor="middle">Next.js • TypeScript • MongoDB • Google Maps</text>
+</svg>
