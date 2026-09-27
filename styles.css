@@ -588,7 +588,120 @@ img {
     border: 1px solid var(--border-color);
 }
 
-/* ==================== CONTACT SECTION ==================== */
+/* ---- Gradient image covers (for projects without screenshots) ---- */
+.proj-gradient-1 { background: linear-gradient(135deg, #0d1b2a 0%, #1b2838 60%, #0a3d62 100%); }
+.proj-gradient-2 { background: linear-gradient(135deg, #0d2137 0%, #0a3252 60%, #06527a 100%); }
+.proj-gradient-3 { background: linear-gradient(135deg, #1a0a2e 0%, #2d1b4e 60%, #4a2070 100%); }
+.proj-gradient-5 { background: linear-gradient(135deg, #0a2e1a 0%, #0d4a2a 60%, #0a6b3a 100%); }
+
+.proj-icon-cover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: rgba(0, 217, 255, 0.5);
+    transition: var(--transition);
+}
+
+.project-card:hover .proj-icon-cover {
+    color: rgba(0, 217, 255, 0.85);
+    transform: scale(1.1);
+}
+
+/* ---- Badge row with date ---- */
+.project-badges-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.project-date {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-left: auto;
+}
+
+/* Badge colour variants */
+.java-badge {
+    background: linear-gradient(135deg, rgba(232, 111, 50, 0.2) 0%, rgba(200, 80, 20, 0.2) 100%);
+    color: #e87d3e;
+    border-color: #e87d3e;
+}
+
+.cloud-badge {
+    background: linear-gradient(135deg, rgba(52, 152, 219, 0.2) 0%, rgba(30, 110, 180, 0.2) 100%);
+    color: #5dade2;
+    border-color: #5dade2;
+}
+
+/* ---- Bullet descriptions inside cards ---- */
+.project-bullets {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.project-bullets li {
+    position: relative;
+    padding-left: 1.3rem;
+    font-size: 13.5px;
+    color: var(--text-secondary);
+    line-height: 1.65;
+}
+
+.project-bullets li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--accent-primary);
+    font-size: 0.8rem;
+    top: 2px;
+}
+
+.project-bullets li strong {
+    color: var(--text-primary);
+}
+
+/* ---- Bottom links row ---- */
+.project-links-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+    flex-wrap: wrap;
+}
+
+.project-links-row a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.project-links-row a:hover {
+    border-color: var(--accent-primary);
+    color: var(--accent-primary);
+    background: rgba(0, 217, 255, 0.08);
+}
+
+
 .contact {
     padding: var(--section-padding);
     background-color: var(--bg-primary);
